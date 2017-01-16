@@ -280,8 +280,10 @@ $(function() {
 		var firstLine = $('#firstLineBoxes');
 		liveOnlodLive($('#startPanel').children('#boxes').children('#boxesCont'));
 
+//changed
+
 		orangeBox(firstLine, formTemplate);
-		blueBox(firstLine, formTemplate);
+		//blueBox(firstLine, formTemplate);
 		//firstLine.append('<div class="startBox ' + spriteHome + '" id="boxV"><h1><span>' + lang('insertData') + '</span><span class="' + spriteHome + ' info"></span></h1></div>');
 
 		$('#menu').find('a[href^=#]').click(function() {
@@ -443,8 +445,6 @@ $(function() {
 				$(this).data('show', true);
 				var ele = $(this);
 				var jEndpoints = $('<div class="selectionList"></div>');
-				jEndpoints.append('<div class="selectEle" rel="dbpedia"><span>dbpedia.org</span></div>');
-				jEndpoints.append('<div class="selectEle" rel="freebase"><span>freebase.com</span></div>');
 				jEndpoints.append('<div class="selectEle" rel="sdw"><span>sdw.dfki.com</span></div>');
 				jEndpoints.hover(function() {
 				}, function() {
@@ -551,32 +551,7 @@ $(function() {
 		} catch (e) {
 		}
 		var result = [];
-		if (type == 'dbpedia') {
-			connection = $.ajax({
-				url : 'http://lookup.dbpedia.org/api/search.asmx/PrefixSearch?QueryClass=&MaxHits=20&QueryString=' + value,
-				async : true,
-				crossDomain: true,
-				success : function(data) {
-					var xml = $(data);
-					xml.find('Result').each(function() {
-						result.push({
-							uri : $(this).children('URI').text(),
-							label : $(this).children('Label').text()
-						});
-						callback();
-					});
-					if (xml.find('Result').length == 0) {
-						onAbort();
-					}
-				},
-				complete : function(a, b) {
-					if (b == 'error' || b == 'parsererror' || b == 'timeout') {
-						myAlert(lang('enpointNotAvailableOrSLow') + "<br />https://lookup.dbpedia.org " + "(" + b + ")");
-						onAbort();
-					}
-				}
-			});
-		} else if (type == 'sdw') {
+		if (type == 'sdw') {
 			var lang = "EnSuggester";
 			connection = $.ajax({
 				url : 'http://chushayashi.unbelievable-machine.net:10083/solr/companies/suggest?wt=json&suggest=true&suggest.build=false&suggest.dictionary=EnSuggester&suggest.q='+ value,
@@ -600,27 +575,6 @@ $(function() {
 						onAbort();
 					}
 				}	
-			});
-		} else if (type == 'freebase') {
-			connection = $.ajax({
-				url : 'https://www.googleapis.com/freebase/v1/search?query=' + value + '&mql_output={"id":null,"name":null}&lang=en&key=AIzaSyBtTcMfVJVhjmhh_MdzeBCnuIC4J0WzPXQ',
-				async : true,
-				success : function(json) {
-					for (var int = 0; int < json.result.length; int++) {
-						var row = json.result[int];
-						result.push({
-							uri : 'http://rdf.freebase.com/ns/' + row.id.replace(/^\//, '').replace(/\//g, '.'),
-							label : row.name ? row.name : row.id
-						});
-						callback();
-					}
-				},
-				complete : function(a, b) {
-					if (b == 'error' || b == 'parsererror' || b == 'timeout') {
-						myAlert(lang('enpointNotAvailableOrSLow') + "<br />https://www.googleapis.com/freebase " + "(" + b + ")");
-						onAbort();
-					}
-				}
 			});
 		}
 
