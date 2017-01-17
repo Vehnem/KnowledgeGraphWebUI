@@ -130,16 +130,19 @@ var debugOn = false;
 			}
 			return url;
 		},
+			//changed
 		guessingEndpoint : function(uri, onSuccess, onFail) {
 			var base = uri.replace(/(^http:\/\/[^\/]+\/).+/, "$1");
-			var guessedEndpoint = base + "sparql?" + $.jStorage.get('endpoints')['all'] + "&query=" + encodeURIComponent("select * where {?a ?b ?c} LIMIT 1");
+			//var guessedEndpoint = base + "sparql?" + $.jStorage.get('endpoints')['all'] + "&query=" + encodeURIComponent("select * where {?a ?b ?c} LIMIT 1");
+            var guessedEndpoint = "http://chushayashi.unbelievable-machine.net:8892/sparql" + $.jStorage.get('endpoints')['all'] + "&query=" + encodeURIComponent("select * where {?a ?b ?c} LIMIT 1");
 			$.jsonp({
 				url : guessedEndpoint,
 				success : function(data) {
 					if (data && data.results && data.results.bindings[0]) {
 						var connections = lodLiveProfile.connection;
 						connections[base] = {
-							endpoint : base + "sparql"
+							//endpoint : base + "sparql"
+							endpoint : "http://chushayashi.unbelievable-machine.net:8892/sparql"
 						};
 						lodLiveProfile.connection = connections;
 						onSuccess();

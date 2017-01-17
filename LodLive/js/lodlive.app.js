@@ -285,7 +285,6 @@ $(function() {
 		orangeBox(firstLine, formTemplate);
 		//blueBox(firstLine, formTemplate);
 		//firstLine.append('<div class="startBox ' + spriteHome + '" id="boxV"><h1><span>' + lang('insertData') + '</span><span class="' + spriteHome + ' info"></span></h1></div>');
-
 		$('#menu').find('a[href^=#]').click(function() {
 			var text = $('<div class="text ' + spriteHome + '"><h3>' + $(this).text() + '</h3><div class="padding">' + $($(this).attr("href")).children('p').html() + '</div></div>');
 			text.click(function() {
@@ -364,8 +363,11 @@ $(function() {
 		form.find('.inviaForm').attr("style", 'top: 138px');
 	}
 
+
+
 	function liveOnlodLive(dest) {
-		var aBox = $('<div class="startBox ' + spriteHome + ' endpList"></div>');
+	//changed
+			var aBox = $('<div class="startBox" style="display : none;" ' + spriteHome + ' endpList"></div>');
 		dest.prepend(aBox);
 		var form = $('<form><div class="select"><span>' + lang('choose') + '</span><span class="' + spriteHome + ' arrow"></span></div></form>');
 		aBox.append(form);

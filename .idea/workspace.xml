@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b501e5cb-4697-438c-8861-dd2ce4bb18e8" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LodLive/css/lodlive.core.css" afterPath="$PROJECT_DIR$/LodLive/css/lodlive.core.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LodLive/js/lodlive.app.js" afterPath="$PROJECT_DIR$/LodLive/js/lodlive.app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LodLive/js/lodlive.core.js" afterPath="$PROJECT_DIR$/LodLive/js/lodlive.core.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LodLive/js/lodlive.profile.js" afterPath="$PROJECT_DIR$/LodLive/js/lodlive.profile.js" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="lodlive.profile.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LodLive/js/lodlive.profile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="79" column="11" lean-forward="false" selection-start-line="79" selection-start-column="10" selection-end-line="79" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="s.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LodLive/js/s.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lodlive.app.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LodLive/js/lodlive.app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="277">
+              <caret line="285" column="10" lean-forward="false" selection-start-line="285" selection-start-column="10" selection-end-line="285" selection-end-column="10" />
+              <folding>
+                <marker date="1484581663298" expanded="true" signature="6025:6037" ph="..." />
+                <marker date="1484581663298" expanded="true" signature="12553:12568" ph="..." />
+                <marker date="1484581663298" expanded="true" signature="16126:16138" ph="..." />
+                <marker date="1484581663298" expanded="true" signature="16768:16798" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lodlive.core.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LodLive/js/lodlive.core.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="136" column="64" lean-forward="false" selection-start-line="136" selection-start-column="63" selection-end-line="136" selection-end-column="64" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <marker date="1484581036102" expanded="true" signature="4897:4909" ph="..." />
+                <marker date="1484581036102" expanded="true" signature="5084:5096" ph="..." />
+                <marker date="1484581036102" expanded="true" signature="5191:5203" ph="..." />
+                <marker date="1484581036102" expanded="true" signature="7879:7885" ph="..." />
+                <marker date="1484581036102" expanded="true" signature="10086:10097" ph="..." />
+                <marker date="1484581036102" expanded="true" signature="10303:10314" ph="..." />
+                <marker date="1484581036102" expanded="true" signature="10444:10455" ph="..." />
+                <marker date="1484581036102" expanded="true" signature="13867:13873" ph="..." />
+                <marker date="1484581036102" expanded="true" signature="39229:39241" ph="..." />
+                <marker date="1484581036102" expanded="true" signature="39337:39343" ph="..." />
+                <marker date="1484581036102" expanded="true" signature="39440:39446" ph="..." />
+                <marker date="1484581036102" expanded="true" signature="39544:39550" ph="..." />
+                <marker date="1484581036102" expanded="true" signature="39647:39653" ph="..." />
+                <marker date="1484581036102" expanded="true" signature="39753:39759" ph="..." />
+                <marker date="1484581036102" expanded="true" signature="43435:43495" ph="..." />
+                <marker date="1484581036102" expanded="true" signature="45707:45767" ph="..." />
+                <marker date="1484581036102" expanded="true" signature="53627:53638" ph="..." />
+                <marker date="1484581036102" expanded="true" signature="54123:54193" ph="..." />
+                <marker date="1484581036102" expanded="true" signature="54812:54818" ph="..." />
+                <marker date="1484581036102" expanded="true" signature="82958:82970" ph="..." />
+                <marker date="1484581036102" expanded="true" signature="83121:83195" ph="..." />
+                <marker date="1484581036102" expanded="true" signature="83365:83441" ph="..." />
+                <marker date="1484581036102" expanded="true" signature="84337:84343" ph="..." />
+                <marker date="1484581036102" expanded="true" signature="84668:84674" ph="..." />
+                <marker date="1484581036102" expanded="true" signature="88404:88468" ph="..." />
+                <marker date="1484581036102" expanded="true" signature="92369:92433" ph="..." />
+                <marker date="1484581036102" expanded="true" signature="93999:94063" ph="..." />
+                <marker date="1484581036102" expanded="true" signature="97368:97374" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app_en.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LodLive/app_en.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="94" lean-forward="false" selection-start-line="15" selection-start-column="94" selection-end-line="15" selection-end-column="94" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>enpoint</find>
+      <find>sparql</find>
+      <find>&quot;sparql</find>
+      <find>abOx</find>
+      <find>aBox</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/LodLive/js/lodlive.profile.js" />
+        <option value="$PROJECT_DIR$/LodLive/js/lodlive.core.js" />
+        <option value="$PROJECT_DIR$/LodLive/js/lodlive.app.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1" />
+    <option name="y" value="27" />
+    <option name="width" value="1922" />
+    <option name="height" value="1054" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KnowledgeGraphWebUI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KnowledgeGraphWebUI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KnowledgeGraphWebUI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KnowledgeGraphWebUI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LodLive" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KnowledgeGraphWebUI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KnowledgeGraphWebUI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LodLive" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="js.eslint.eslintPackage" value="" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/LodLive/js" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b501e5cb-4697-438c-8861-dd2ce4bb18e8" name="Default" comment="" />
+      <created>1484577722250</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1484577722250</updated>
+      <workItem from="1484577723760" duration="2660000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2660000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1" y="27" width="1922" height="1054" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18177083" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/LodLive/app_en.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="94" lean-forward="false" selection-start-line="15" selection-start-column="94" selection-end-line="15" selection-end-column="94" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LodLive/js/s.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LodLive/js/lodlive.profile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="79" column="11" lean-forward="false" selection-start-line="79" selection-start-column="10" selection-end-line="79" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LodLive/js/lodlive.core.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="136" column="64" lean-forward="false" selection-start-line="136" selection-start-column="63" selection-end-line="136" selection-end-column="64" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1484581036102" expanded="true" signature="4897:4909" ph="..." />
+            <marker date="1484581036102" expanded="true" signature="5084:5096" ph="..." />
+            <marker date="1484581036102" expanded="true" signature="5191:5203" ph="..." />
+            <marker date="1484581036102" expanded="true" signature="7879:7885" ph="..." />
+            <marker date="1484581036102" expanded="true" signature="10086:10097" ph="..." />
+            <marker date="1484581036102" expanded="true" signature="10303:10314" ph="..." />
+            <marker date="1484581036102" expanded="true" signature="10444:10455" ph="..." />
+            <marker date="1484581036102" expanded="true" signature="13867:13873" ph="..." />
+            <marker date="1484581036102" expanded="true" signature="39229:39241" ph="..." />
+            <marker date="1484581036102" expanded="true" signature="39337:39343" ph="..." />
+            <marker date="1484581036102" expanded="true" signature="39440:39446" ph="..." />
+            <marker date="1484581036102" expanded="true" signature="39544:39550" ph="..." />
+            <marker date="1484581036102" expanded="true" signature="39647:39653" ph="..." />
+            <marker date="1484581036102" expanded="true" signature="39753:39759" ph="..." />
+            <marker date="1484581036102" expanded="true" signature="43435:43495" ph="..." />
+            <marker date="1484581036102" expanded="true" signature="45707:45767" ph="..." />
+            <marker date="1484581036102" expanded="true" signature="53627:53638" ph="..." />
+            <marker date="1484581036102" expanded="true" signature="54123:54193" ph="..." />
+            <marker date="1484581036102" expanded="true" signature="54812:54818" ph="..." />
+            <marker date="1484581036102" expanded="true" signature="82958:82970" ph="..." />
+            <marker date="1484581036102" expanded="true" signature="83121:83195" ph="..." />
+            <marker date="1484581036102" expanded="true" signature="83365:83441" ph="..." />
+            <marker date="1484581036102" expanded="true" signature="84337:84343" ph="..." />
+            <marker date="1484581036102" expanded="true" signature="84668:84674" ph="..." />
+            <marker date="1484581036102" expanded="true" signature="88404:88468" ph="..." />
+            <marker date="1484581036102" expanded="true" signature="92369:92433" ph="..." />
+            <marker date="1484581036102" expanded="true" signature="93999:94063" ph="..." />
+            <marker date="1484581036102" expanded="true" signature="97368:97374" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LodLive/js/lodlive.app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="285" column="10" lean-forward="false" selection-start-line="285" selection-start-column="10" selection-end-line="285" selection-end-column="10" />
+          <folding>
+            <marker date="1484581663298" expanded="true" signature="6025:6037" ph="..." />
+            <marker date="1484581663298" expanded="true" signature="12553:12568" ph="..." />
+            <marker date="1484581663298" expanded="true" signature="16126:16138" ph="..." />
+            <marker date="1484581663298" expanded="true" signature="16768:16798" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
